@@ -1,0 +1,16 @@
+{
+    "reporterEnabled": "mochawesome,tap,spec,xunit,mocha-junit-reporter",
+    "mochawesomeReporterOptions": {
+        "reportDir": "cypress/reports/separate-reports",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+    },
+    "xunitReporterOptions": {
+        "output": "cypress/reports/output.xml"
+    },
+    "mochaJunitReporterReporterOptions": {
+        "mochaFile": "cypress/reports/junit-custom.xml"
+    }
+}

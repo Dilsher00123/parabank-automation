@@ -1,0 +1,29 @@
+# dependencies
+/node_modules
+package-lock.json
+#.eslintrc.json
+#Report
+/cypress/reports/
+!/cypress/reports/assets
+#Video
+/cypress/videos
+#Sceenshots
+/cypress/screenshots/
+#Sceenshots
+/cypress/downloads/*
+#Examples
+/cypress/integration/examples/
+#Environment
+.env
+### VisualStudioCode ###
+/.vscode/*
+.DS_Store
+### Testing file
+test.js
+.DS_Store
+### Nginx conif
+nginx-conf
+!nginx-conf/conf.d/app.conf
+
+## User register
+/cypress/fixtures/user.json
